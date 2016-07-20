@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+body{
+    background-color: #5D5D5D;
+}
+.main{
+    background-color: #fff;
+    width: 892px;
+    height: 1386px;
+    margin:0 auto;
+    padding: 0 44px;
+}
+.head{
+    margin-bottom: 30px;
+    position:relative;
+}
+.id{
+    width: 110px;
+    height: 61px;
+    background-color:  #d55d5c;
+    position:relative;
+}
+.id p{
+    font-size: 12px;
+    color:#ffffff;
+    position: absolute;
+    margin-left: 4px;
+    bottom: 2px;
+}
+.date{
+    font-size: 12px;
+    color: #d45d5c;
+    right: 0;
+    bottom: 5px;
+    position: absolute;
+}
+.bt{
+    border-bottom: 2px #938e8c solid;
+}
+.one{
+    width: 892px;
+    height: 301px;
+    position:relative;
+}
+.pic1{
+    width: 641px;
+    height: 301px;
+    float: left;
+    position: relative;
+}
+.a{
+    width: 191px;
+    height: 301px;
+    background-color: #72A664;opacity: 0.6;
+    position: absolute;
+    top: 0;
+    float: left;
+}
+.b{
+    width: 191px;
+    height: 301px;
+    background-color: #E1ABC3; opacity: 0.6;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.aside{
+    width: 203px;
+    height: 301px;
+    float: right;
+    position:relative;
+}
+.tp{
+    border-bottom: #938e8c solid;
+}
+.aside h2{
+    font-size: 24px;
+    text-decoration:underline;
+}
+.aside p{
+    font-size: 12px;
+    font-family: "STKaiti";
+    color: #676767;
+    margin-bottom: 10px;
+}
+.aside .num{
+    font-family: "Microsoft YaHei";
+    font-size: 116px;
+    color: #75b86b;
+    font-style: oblique;
+    position: absolute;
+    top:100px;
+    right: 16px;
+}
+.aside_down{
+    position: relative;
+    bottom: 0;
+}
+.aside_down p{
+    margin-bottom: 0;
+}
+.aside .mark_1{
+    font-size: 55px;
+    color:  #cc8091;
+    position: absolute;
+    top: 143px;
+}
+.aside .mark_2{
+    font-size: 21px;
+    color:  #cc8091;
+    position: absolute;
+    top:161px;
+    right:110px;
+}
+.aside .mark_3{
+    font-size: 12px;
+    color:  #cc8091;
+    position: absolute;
+    top: 183px;
+    right:67px;
+}
+.two{
+    width: 980px;
+    margin:45px 0;
+}
+.two div{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+.what{
+    width: 220px;
+}
+.what h2{
+    font-size: 16px;
+    color: #418c59;
+    margin-bottom: 6px;
+    text-decoration:underline;
+}
+.what p{
+    font-size: 12px;
+    color:  #767777;
+    font-family: "SimSun";
+    line-height: 16px;
+}
+.when{
+    width: 220px;
+}
+.when h2{
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #d2994f;
+    text-decoration:underline;
+}
+.when p{
+    font-size: 12px;
+    color:  #231815;
+    line-height: 16px;
+}
+.how{
+    width: 160px;
+}
+.how h2{
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #cc7680;
+    text-decoration:underline;
+}
+.how p{
+    font-size: 12px;
+    color:  #231815;
+    line-height: 16px;
+}
+
+.w3{
+    margin-top: 20px;
+}
+.w3 p{
+    line-height: 20px;
+}
+.w3 span{
+    color: #cd4a48;opacity: 0.7;
+
+}
+.three{
+    width: 892px;
+    height: 905px;
+    position: relative;
+}
+.le{
+    width: 415px;
+    float: left;
+}
+.the span{
+    font-size: 72px;
+    margin-right: 10px;
+    color: #f5e327;
+    font:italic 72px SimHei;
+    font-weight: 700;
+
+}
+.the h2{
+    font-size: 42px;
+    color: #11456b;
+    font-weight: 700;
+    line-height: 16px;
+    font-family: "Simhei";
+}
+.the p{
+    font-size: 33px;
+    color: #11456b;
+    font-family: "Simhei";
+    font-weight: 700;
+    line-height: 70px;
+}
+.underline{
+    width: 415px;
+    border-bottom: 2px #938e8c solid;
+    margin-bottom: 10px;
+}
+.fi{
+    margin-top: 22px;
+    margin-right: 10px;
+}
+.fi span{
+    float: left;
+    font-size: 70px;
+    padding: 20px 20px 30px 3px;
+    color: #f5e327;
+    font-family: "Microsoft YaHei";
+}
+.fi p{
+    font-size: 12px;
+    color: #767777;
+    font-family: "SimSun";
+    line-height: 16px;
+}
+.pic2{
+    float: right;
+    width: 150px;
+    height: 250px;
+    margin: 20px 0 15px 15px;
+}
+.one_t{
+    width: 415px;
+    text-indent:2em;
+}
+.two_t{
+    width: 415px;
+    text-indent:2em;
+}
+.ri{
+    width:458px;
+    float: right;
+}
+.bo{
+    width:458px;
+    height: 275px;
+    position: relative;
+}
+.pic3{
+    width:458px;
+    height: 275px;
+    position: absolute;
+}
+.gr{
+    background: black;
+    width:458px;
+    height:61px;
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.3)
+}
+.gr p{
+    margin: 15px 0 0px 50px;
+    padding: 0px 0px 0px 20px;
+    color: #72b16a;
+    border-left: 3px #72b16a solid;
+    font-size: 12px;
+    font-style: italic;
+}
+.gr span{
+    font-style: normal;
+    margin-right: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    color: #ffffff;
+}
+.bi{
+    background-color: #EEEDD6;
+    margin-top: 25px;
+    width: 459px;
+    height: 318px;
+}
+.fo{
+    margin: 0 105px 0 0;
+    padding: 25px 0 85px 50px;
+}
+
+.k1{
+    float: left;
+    color: #5a5b5b;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.k1:before {
+    content: '◆';
+}
+.k2{
+    float: right;
+    color: #5a5b5b;
+    font-size: 12px;
+    line-height: 32px;
+    font-family:"SimSun";
+    font-style: italic;;
+}
+.ch{
+    width: 460px;
+    height: 160px;
+    position: relative;
+}
+.ch_one{
+    width: 260px;
+    height: 160px;
+    float: left;
+    background-color: #d45d5c;
+}
+.ch_two{
+    margin-top: 24px;
+    width: 185px;
+    height: 160px;
+    float: right;
+}
+.zero{
+    font-size: 110px;
+    color: #ffffff;
+    font-family: "Microsoft YaHei";
+    float: left;
+    border-right: 2px #ffffff solid;
+    height: 86px;
+    line-height: 86px;
+    margin:  37px 10px 37px 10px;
+}
+.nu{
+    margin-top: 37px;
+    font-size: 18px;
+    color: #ffffff;
+    font-style: oblique;
+    font-family: "黑体";
+}
+.hello{
+    font-size: 12px;
+    font-family: "黑体";
+    color: #ffffff;
+    line-height: 10px;
+    margin-top: 2px;
+}
+.lii{
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "黑体";
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    right: 160px;
+}
+.rii{
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "黑体";
+    font-style: normal;
+    position: absolute;
+    right: 0px;
+    top: 100px
+}
+.ch_two p{
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: "黑体";
+    font-style: oblique;
+    text-indent:2em;
+}
+.end{
+    border-top: solid 1px #938e8c;
+}
+.end p{
+    font-size: 12px;
+    color:#d45d5c;
+    font-family: "黑体";
+    float: right;
+}
