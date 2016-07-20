@@ -1,4 +1,4 @@
-(function a() {
-    alert("aa");
-    setTimeout(a,5000);
+(function() {
+    var id = document.getElementById('kw');
+    id.innerHTML = "hhhhhhh";
 })();
